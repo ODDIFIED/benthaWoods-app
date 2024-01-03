@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Poppins:wght@200&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+  }
+  
+  
