@@ -18,12 +18,20 @@ import imgStoolOne from './assets/Stool-1.jpg';
 import imgStoolTwo from './assets/Stool-2.jpg';
 import imgStoolThree from './assets/Stool-3.jpg';
 import imgStoolFour from './assets/Stool-4.jpg';
+import { GiTable } from "react-icons/gi";
+import { FaCouch } from "react-icons/fa";
+import { BsBookshelf } from "react-icons/bs";
+import { IoBedOutline } from "react-icons/io5";
+import { MdWorkspaces } from "react-icons/md";
 
 
 
+export type FilteredProps ={
+    id: Number;
+    MenuButt: string,
+    MenuIcon: any,
 
-
-
+}
 
 
 export type Props = {
@@ -99,3 +107,32 @@ export const furniDetails: Array<Props> = [
     product_img: imgShelfOne
   },
 ];
+
+
+export const MenuButton : Array<FilteredProps> =[
+    {
+        id: 1,
+        MenuButt: 'Table',
+        MenuIcon: <GiTable />,
+    },
+    {
+        id: 2,
+        MenuButt: 'Couch',
+        MenuIcon: <FaCouch />,
+    },
+    {
+        id: 3,
+        MenuButt: 'Shelf',
+        MenuIcon: <BsBookshelf />,
+    },
+    {
+        id: 4,
+        MenuButt: 'Bed',
+        MenuIcon: <IoBedOutline /> ,
+    },
+    {
+        id: 5,
+        MenuButt: 'Workspace',
+        MenuIcon: <MdWorkspaces />,
+    },
+]

@@ -1,3 +1,4 @@
+import MenuFilter from "./MenuFilter";
 import Blog from "./Blog";
 import Contact from "./Contact";
 import Footer from "./Footer";
@@ -11,8 +12,9 @@ const Home = () => {
       <div>
           <Navbar />
       </div>
-      <div>
+      <div className="w-full max-w-full mx-auto">
         <Hero />
+        <MenuFilter/>
       </div>
       <div>
         <div>
