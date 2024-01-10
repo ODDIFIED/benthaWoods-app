@@ -46,65 +46,65 @@ export const furniDetails: Array<Props> = [
   {
     id: 0,
     product_name: "Fulsa Bed",
-    price: "100$",
+    price: "$ 99.99",
     product_type: "bedframe",
     product_img: imgbedOne
   },
   {
     id: 1,
     product_name: "Benny couch",
-    price: "80$",
+    price: "$ 79.99",
     product_type: "couch",
     product_img: imgCouchOne
   },
   {
     id: 2,
     product_name: "Union tab",
-    price: "60$",
+    price: "$ 59.99",
     product_type: "dining",
     product_img: imgDinningtab
   },
   {
     id: 3,
     product_name: "Tangle tab",
-    price: "150$",
+    price: "$ 149.99",
     product_type: "dining",
     product_img: imgDinningtabThree
   },
   {
     id: 4,
     product_name: "Renaissance Shelf",
-    price: "65$",
+    price: "$ 64.99",
     product_type: "Shelf",
     product_img: imgShelfOne
   },
   {
     id: 5,
     product_name: "Eyeside Stool",
-    price: "65$",
+    price: "$ 64.99",
     product_type: "Stool",
     product_img: imgStoolOne
   },
   {
     id: 6,
     product_name: "Lopum Bed",
-    price: "80$",
+    price: "$ 79.99",
     product_type: 'bed frame',
     product_img: imgbedFour
   },
   {
     id: 7,
     product_name: "Sam-couch",
-    price: "70$",
+    price: "$ 70.00",
     product_type: "couch",
     product_img: imgCouchTwo
   },
   {
     id: 8,
     product_name: "Ekọ́ Shelf",
-    price: "65$",
+    price: "$ 64.99",
     product_type: "Shelf",
-    product_img: imgShelfOne
+    product_img: imgShelfTwo
   },
 ];
 
